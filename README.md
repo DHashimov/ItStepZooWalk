@@ -1,2 +1,2 @@
 # ItStepZooWalk
-Zoo Walk Java interpretation
+Georgi
