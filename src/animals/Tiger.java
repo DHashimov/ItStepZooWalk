@@ -10,7 +10,7 @@ public class Tiger extends Animal {
 	
 	public static Tiger getInstance(){
 		if(self == null){
-			self = new Tiger("Tigger", Type.PREDATOR, facts, Place.OPEN_SPACE);
+			self = new Tiger("Tigger", Type.MAMMAL, facts, Place.OPEN_SPACE);
 		}
 		return self;
 	}

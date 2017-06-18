@@ -7,13 +7,10 @@
 public class Program {
 
 	public static void main(String[] args) {
-		
 
 
 	}
 	
-	
-	//TODO CREATE DATABASE and get data from it
 //	try {
 //		Class.forName("com.mysql.jdbc.Driver").newInstance();
 //		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/it_step_zoo_walk", "root", "");
@@ -35,7 +32,6 @@ public class Program {
 //	} catch (SQLException e) {
 //		// TODO Auto-generated catch block
 //		e.printStackTrace();
-//	} finally {
-//
 //	}
+
 }
