@@ -91,13 +91,13 @@ public class Program {
 				System.out.println("Class Birds: " + Type.BIRD.getDescription());
 			}
 			if (animal.type == Type.FISH && printFish) {
-				System.out.println("Class Birds: " + Type.BIRD.getDescription());
+				System.out.println("Class Birds: " + Type.FISH.getDescription());
 			}
 			if (animal.type == Type.MAMMAL && printMammal) {
-				System.out.println("Class Birds: " + Type.BIRD.getDescription());
+				System.out.println("Class Birds: " + Type.MAMMAL.getDescription());
 			}
 			if (animal.type == Type.REPTILE && printReptile) {
-				System.out.println("Class Birds: " + Type.BIRD.getDescription());
+				System.out.println("Class Birds: " + Type.REPTILE.getDescription());
 			}
 			System.out.println(animal.name);
 			if (animal.type == Type.BIRD)
