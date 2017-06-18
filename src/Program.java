@@ -5,7 +5,18 @@
 //import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
+
+import animals.Chimpanzee;
+import animals.Dolphin;
+import animals.Eagle;
+import animals.Elephant;
+import animals.GrizzlyBear;
+import animals.Hippopotamus;
 import animals.Lion;
+import animals.Macaque;
+import animals.Otter;
+import animals.Owl;
+import animals.Tiger;
 import enums.Place;
 import enums.Type;
 import main.Animal;
@@ -24,6 +35,17 @@ public class Program {
 	public static void main(String[] args) throws InterruptedException {
 		List<Animal> animalList	= new ArrayList<Animal>();
 		animalList.add(Lion.getInstance());
+		animalList.add(Elephant.getInstance());
+		animalList.add(Tiger.getInstance());
+		animalList.add(Owl.getInstance());
+		animalList.add(Eagle.getInstance());
+		animalList.add(Macaque.getInstance());
+		animalList.add(Chimpanzee.getInstance());
+		animalList.add(GrizzlyBear.getInstance());
+		animalList.add(Hippopotamus.getInstance());
+		animalList.add(Otter.getInstance());
+		animalList.add(Dolphin.getInstance());
+		
 
 		for (Animal animal : animalList){
 			new Thread(new Runnable() {
