@@ -1,6 +1,8 @@
 package enums;
 
 public enum Type {
-	PREDATOR
+	PREDATOR,
+	MAMMAL,
+	BIRD
 
 }
