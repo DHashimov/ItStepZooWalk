@@ -78,11 +78,13 @@ public class Program {
 				System.out.println("That's the end of the open space.");
 				System.out.println("We're going into the closed space of the zoo:");
 				cage = 1;
+				firstClosedAnimal = false;
 			}
 			if (animal.place == Place.WATER_SPACE && firstWaterAnimal) {
 				System.out.println("That's the end of the closed space.");
 				System.out.println("We're going into the water space of the zoo:");
 				cage = 1;
+				firstWaterAnimal = false;
 			}
 
 			System.out.println("Cage number " + cage + ":");
