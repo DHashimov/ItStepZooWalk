@@ -33,5 +33,10 @@ public abstract class Animal {
 	public Place getPlace() {
 		return place;
 	}
+	
+	public String getTypeDescription()
+	{
+		return type.getDescription();
+	}
 
 }
