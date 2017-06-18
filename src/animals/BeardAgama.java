@@ -9,7 +9,7 @@ static BeardAgama self;
 	
 	public static BeardAgama getInstance(){
 		if(self == null){
-			self = new BeardAgama("Deo", Type.REPTILE, "lizard with a large head and a long tail", Place.COLSED_SPACE);
+			self = new BeardAgama("Deo", Type.REPTILE, "Pogona vitticeps, the central (or inland) bearded dragon, is a species of agamid lizard occurring in a wide range of arid to semiarid regions of Australia. This species is very popularly kept as a pet and exhibited in zoos.", Place.COLSED_SPACE);
 		}
 		return self;
 	}
