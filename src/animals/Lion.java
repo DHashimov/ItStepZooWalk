@@ -10,7 +10,7 @@ public class Lion extends Animal {
 	
 	public static Lion getInstance(){
 		if(self == null){
-			self = new Lion("Leo", Type.PREDATOR, "Some Description", Place.OPEN_SPACE);
+			self = new Lion("Leo", Type.MAMMAL, "Some Description", Place.OPEN_SPACE);
 		}
 		return self;
 	}
