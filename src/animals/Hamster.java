@@ -9,7 +9,7 @@ static Hamster self;
 	
 	public static Hamster getInstance(){
 		if(self == null){
-			self = new Hamster("Seo", Type.PREDATOR, "a solitary burrowing rodent", Place.OPEN_SPACE);
+			self = new Hamster("Seo", Type.MAMMAL, "a solitary burrowing rodent", Place.COLSED_SPACE);
 		}
 		return self;
 	}

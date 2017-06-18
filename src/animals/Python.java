@@ -10,7 +10,7 @@ static Python self;
 	
 	public static Python getInstance(){
 		if(self == null){
-			self = new Python("Deo", Type.PREDATOR, "Some Description", Place.OPEN_SPACE);
+			self = new Python("Deo", Type.REPTILE, "Some Description", Place.COLSED_SPACE);
 		}
 		return self;
 	}

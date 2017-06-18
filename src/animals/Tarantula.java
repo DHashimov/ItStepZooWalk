@@ -9,7 +9,7 @@ static Tarantula self;
 	
 	public static Tarantula getInstance(){
 		if(self == null){
-			self = new Tarantula("Seo", Type.PREDATOR, "a large hairy spider", Place.OPEN_SPACE);
+			self = new Tarantula("Seo", Type.REPTILE, "a large hairy spider", Place.COLSED_SPACE);
 		}
 		return self;
 	}

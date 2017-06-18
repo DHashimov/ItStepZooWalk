@@ -9,7 +9,7 @@ static BeardAgama self;
 	
 	public static BeardAgama getInstance(){
 		if(self == null){
-			self = new BeardAgama("Deo", Type.PREDATOR, "lizard with a large head and a long tail", Place.OPEN_SPACE);
+			self = new BeardAgama("Deo", Type.REPTILE, "lizard with a large head and a long tail", Place.COLSED_SPACE);
 		}
 		return self;
 	}
