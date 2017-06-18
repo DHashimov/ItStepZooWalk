@@ -1,7 +1,5 @@
 package enums;
 
-import java.util.Dictionary;
-
 public enum Type 
 {
 	REPTILE("Reptiles are tetrapod (four-limbed vertebrate) animals in the class Reptilia, comprising today's turtles, crocodilians, snakes, amphisbaenians, lizards, tuatara, and their extinct relatives. The study of these traditional reptile orders, historically combined with that of modern amphibians, is called herpetology."),
