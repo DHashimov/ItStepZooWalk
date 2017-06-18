@@ -87,6 +87,18 @@ public class Program {
 
 			System.out.println("Cage number " + cage + ":");
 			cage++;
+			if (animal.type == Type.BIRD && printBird) {
+				System.out.println("Class Birds: " + Type.BIRD.getDescription());
+			}
+			if (animal.type == Type.FISH && printFish) {
+				System.out.println("Class Birds: " + Type.BIRD.getDescription());
+			}
+			if (animal.type == Type.MAMMAL && printMammal) {
+				System.out.println("Class Birds: " + Type.BIRD.getDescription());
+			}
+			if (animal.type == Type.REPTILE && printReptile) {
+				System.out.println("Class Birds: " + Type.BIRD.getDescription());
+			}
 			System.out.println(animal.name);
 			if (animal.type == Type.BIRD)
 				printBird = false;
@@ -96,9 +108,6 @@ public class Program {
 				printMammal = false;
 			if (animal.type == Type.REPTILE)
 				printReptile = false;
-			if (animal.type == Type.BIRD && printBird) {
-				System.out.println("Class Birds: " + Type.BIRD.getDescription());
-			}
 			System.out.println(animal.name + " is: " + animal.description);
 			System.out.println("\n\n\n");
 			Thread.sleep(5000);
